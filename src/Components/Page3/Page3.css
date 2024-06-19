@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
+    gap: 10px;    
 
 }
 
@@ -19,7 +20,7 @@
 .box4{
     padding-left: 2.5%;
     padding-right: 3%;
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    box-shadow: 0 15px 40px 10px rgb(154,170,207,25%);
 }
 
 .BoxButton{
@@ -27,7 +28,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 10%;
 }
+
 .boxButton{
     padding: 10px 20px;
     background-color: black;

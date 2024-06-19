@@ -2,6 +2,7 @@ import React from 'react'
 import './Header.css'
 import { TiTick } from "react-icons/ti";
 import image from '../assets/maintenance.jpg'
+import '../font/Chillax.css'
 
 const Header = () => {
   return (
