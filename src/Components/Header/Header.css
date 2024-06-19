@@ -63,3 +63,7 @@
     border-radius: 5px;
     border: none;
   }
+
+@media  screen and (max-width:700px) {
+    
+}
