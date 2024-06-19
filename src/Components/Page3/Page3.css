@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+
+}
+
+.Page3{
+    color: rgb(76, 72, 72);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.box-heading{
+    color: rgb(76, 72, 72);
+    font-size: 3.5vh;
+    font-weight: 1000;
+}
+
+.box4{
+    padding-left: 2.5%;
+    padding-right: 3%;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+.BoxButton{
+    padding-top: 3.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxButton{
+    padding: 10px 20px;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
