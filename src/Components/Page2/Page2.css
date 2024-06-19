@@ -20,6 +20,7 @@
 .heading1{
     text-align: center;
     font-size: 1.5rem;
+    /* padding-bottom: 2%; */
 }
 
 .p3{
@@ -57,11 +58,11 @@
 }
 .box3{
     width: 300px;
-    height: 119px;
+    height: 100px;
     box-sizing: border-box;
     border: 1px solid  rgba(141, 132, 132, 0.409);
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     padding: 10px;
     background-color: whitesmoke;
     cursor: pointer;
@@ -102,6 +103,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 12px;
 }
 .QuoteHeading{
     padding-top: 20px;
@@ -111,6 +113,8 @@
 }
 .fill{
     height: 25px;
+    border-radius: 5px;
+    border: none;
 }
 
 .started{
