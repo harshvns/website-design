@@ -5,10 +5,10 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import slide1 from '../assets/protect.png';
-// import slide2 from './assets/slide2.jpg';
-// import slide3 from './assets/slide3.jpg';
-// import slide4 from './assets/slide4.jpg';
-// import slide5 from './assets/slide5.jpg';
+import slide2 from '../assets/update.png';
+import slide3 from '../assets/report.jpg';
+import slide4 from '../assets/Support.png';
+import slide5 from '../assets/initiate.jpg';
 
 const Page4 = () => {
     const sliderRef = useRef(null);
@@ -25,8 +25,8 @@ const Page4 = () => {
     <div className="slider-container">
       <Slider ref={sliderRef} {...settings}>
         <div className='slide'>
-        <div className='Slide'>
-          <img  src={slide1} alt="Slide 1" />
+        <div className='slide-image'>
+          <img  src={slide1} alt="slide 1" />
           </div>
           <div className="content">
             <h2>Protect</h2>
@@ -34,26 +34,37 @@ const Page4 = () => {
           </div>
           
         </div>
-        <div>
-          {/* <img src={slide2} alt="Slide 2" /> */}
+        <div className='slide'>
+        <div className='slide-image'>
+          <img src={slide2} alt="slide 2" />
+          </div>
           <div className="content">
             <h2>Update</h2>
             <p>In this phase, our team does all the required updations to the website requested by you. We ensure it gets done in 24-48 hours or less. Apart from your request, we do all the periodic updates as proposed.</p>
           </div>
         </div>
-        <div>
+        <div className='slide'>
+        <div className='slide-image'>
+        <img src={slide3} alt="slide 3" />
+        </div>
           <div className="content">
             <h2>Report</h2>
             <p>We believe in keeping complete transparency and we provide up-to-date Monthly / Quarterly Website Traffic reports and Monthly / Quarterly Activity reports of our work on your website which will help you understand your site's performance. The frequency is as per the scope of work defined.</p>
           </div>
         </div>
-        <div>
+        <div className='slide'>
+        <div className='slide-image'>
+        <img src={slide4} alt="slide 4" />
+        </div>
           <div className="content">
             <h2>Support</h2>
             <p>Our Website Care team is there to support you with any technical difficulties with the website's performance.</p>
           </div>
         </div>
-        <div>
+        <div className='slide'> 
+        <div className='slide-image'>
+        <img src={slide5} alt="slide 5" />
+        </div>
           <div className="content">
             <h2>Initiate</h2>
             <p>Our technical team initiates a maintenance project through the CRM system. Post initiation we do all the one-time necessary activities to ensure the newly initiated project is fully protected includes a full backup of your website too.</p>
