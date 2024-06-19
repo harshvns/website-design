@@ -6,7 +6,7 @@ import image from '../assets/maintenance.jpg'
 const Header = () => {
   return (
     <div className='main'>
-    <div>
+    <div className='main1'>
         <h2 className='Heading'>Website Maintenance <br/>Services With 100% <br/>Website Care and <br/>Support</h2>
         <p className='heading2'>Let our Experts take care of your website so that you can <br/> focus on your business.</p>
         <div className='facility'>
