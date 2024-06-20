@@ -33,12 +33,22 @@
 }
 
 .boxButton{
-    padding: 10px 20px;
-    background-color: black;
-    color: whitesmoke;
-    cursor: pointer;
-    border-radius: 5px;
-    border: none;
+        color: whitesmoke;
+        background-color: #3b7fbf;
+        cursor: pointer;
+        width: 280px;
+        height: 150%;
+        border-radius: 5px;
+        border: 1.3px solid rgb(0, 0, 0);
+        font-size: 18px;
+        font-weight: 450;
+        position: relative;
+        overflow: hidden;
+        /* transition: color 0.3s; */
+}
+.boxButton:hover{
+    background-color: white;
+    color: #3b7fbf;
 }
 .headingP31{
     padding-top: 3.8%;
