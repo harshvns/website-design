@@ -6,7 +6,6 @@
     flex-wrap: wrap; 
     background-color: #3b7fbf;
     color: whitesmoke;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     height: 450px; 
 }
 
@@ -16,6 +15,9 @@
     padding-right: 5%;
     box-sizing: border-box; 
     overflow: hidden;
+}
+.main1{
+    padding-right: 0%;
 }
 
 .img {
@@ -34,21 +36,27 @@
 }
 
 .Heading {
-    font-family: sans-serif;
-    font-size: 30px;
+    margin-top: 11.3%;
+    font-size: 35px;
     font-weight: 1000;
     line-height: 110%;
+    /* word-spacing: 10px;*/
+    letter-spacing: 2px; 
+    padding-left: 2%;
 }
 
 .heading2 {
+    padding-left: 3%;
+    margin-top: -2.4%;
     color: rgb(42, 41, 41);
     font-weight: 400;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 1%;
 }
 
 .facility {
     display: flex;
-    gap: 62px;
+    gap: 70px;
+    padding-left: 2%;
 }
 
 .Button {
@@ -58,13 +66,60 @@
 
 .quote, .explore {
     color: whitesmoke;
-    background-color: rgb(27, 17, 22);
+    background-color: #3b7fbf;
     cursor: pointer;
-    height: 30px;
-    width: 150px;
+    width: 120%;
+    height: 150%;
     border-radius: 5px;
-    border: none;
+    border: 1.3px solid rgb(223, 223, 223);
+    font-size: 18px;
+    font-weight: 450;
+    position: relative;
+    overflow: hidden;
+    /* transition: color 0.3s; */
 }
+/* .quote::before, .explore::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: #3b7fbf;
+    transition: left 0.5s;
+    z-index: 0;
+}
+
+.quote:hover::before, .explore:hover::before {
+    left: 0;
+    color: #3b7fbf;
+
+}
+
+.quote:hover, .explore:hover {
+    color: #3b7fbf;
+
+}
+
+.quote span, .explore span {
+    position: relative;
+    z-index: 1;
+} */
+.quote:hover{
+    background-color: white;
+    color: #3b7fbf;
+}
+.explore:hover{
+    background-color: white;
+    color: #3b7fbf;
+}
+.HeadPara{
+    margin-top: 0%;
+    margin-bottom: 4%;
+}
+
+
 
 @media (max-width: 768px) {
     .main {

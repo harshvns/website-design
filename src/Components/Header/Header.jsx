@@ -8,18 +8,18 @@ const Header = () => {
   return (
     <div className='main'>
     <div className='main1'>
-        <h2 className='Heading'>Website Maintenance <br/>Services With 100% <br/>Website Care and <br/>Support</h2>
-        <p className='heading2'>Let our Experts take care of your website so that you can <br/> focus on your business.</p>
+        <h1 className='Heading'>Website Maintenance  Services With 100% Website Care and Support</h1>
+        <p className='heading2'>Let our Experts take care of your website so that you can  focus on your business.</p>
         <div className='facility'>
             <div>
-                <p><TiTick /> Fast Website Loading</p>
-                <p><TiTick /> Content Edits Support </p>
-                <p><TiTick /> Monthly Preventive <br/> &nbsp;&nbsp;&nbsp;&nbsp; Activities</p>
+                <p className='HeadPara'><TiTick /> Fast Website Loading</p>
+                <p className='HeadPara'><TiTick /> Content Edits Support </p>
+                <p className='HeadPara'><TiTick /> Monthly Preventive <br/> &nbsp;&nbsp;&nbsp;&nbsp; Activities</p>
             </div>
             <div>
-                <p><TiTick /> Unlimited Tech Support</p>
-                <p><TiTick /> 24×7 Website Monitoring</p>
-                <p><TiTick /> Security Optimization</p>
+                <p className='HeadPara'><TiTick /> Unlimited Tech Support</p>
+                <p className='HeadPara'><TiTick /> 24×7 Website Monitoring</p>
+                <p className='HeadPara'><TiTick /> Security Optimization</p>
             </div>
         </div>
         <div className='Button'>

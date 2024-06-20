@@ -6,7 +6,7 @@
     padding-right: 4%;
     padding-top: 5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .p2:hover .heading {
     color: rgb(26, 110, 110);
@@ -16,6 +16,7 @@
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
+    /* margin-top: 0%; */
 }
 .heading1{
     text-align: center;
@@ -25,11 +26,12 @@
 
 .p3{
     color: rgb(76, 72, 72);
-    padding-top: 5%;
+    padding-top: 2%;
     padding-left: 13%;
     padding-right: 13%;
+    padding-bottom: 2.5%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .p3:hover .heading {
@@ -80,7 +82,7 @@
     height: 250px;
     box-sizing: border-box;
     border: 1px solid rgba(141, 132, 132, 0.409);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding: 10px;
     color: rgb(76, 72, 72);
     border-bottom: none;
@@ -88,6 +90,7 @@
 
 .heading3{
     font-weight: 800;
+    font-size: 1.4rem;
 }
 
 .Quote{
