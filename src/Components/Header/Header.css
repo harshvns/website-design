@@ -78,34 +78,7 @@
     overflow: hidden;
     /* transition: color 0.3s; */
 }
-/* .quote::before, .explore::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    color: #3b7fbf;
-    transition: left 0.5s;
-    z-index: 0;
-}
 
-.quote:hover::before, .explore:hover::before {
-    left: 0;
-    color: #3b7fbf;
-
-}
-
-.quote:hover, .explore:hover {
-    color: #3b7fbf;
-
-}
-
-.quote span, .explore span {
-    position: relative;
-    z-index: 1;
-} */
 .quote:hover{
     background-color: white;
     color: #3b7fbf;

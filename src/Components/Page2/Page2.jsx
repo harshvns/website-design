@@ -28,7 +28,7 @@ const Page2 = () => {
     </div>
     <div className='maintenance'>
         <div className='mainten'>
-            <p className='heading3'>What are website maintenance services?</p>
+            <p className='heading'>What are website maintenance services?</p>
             <p>Website maintenance is the process of making sure that your site stays up-to-date and running smoothly. It can include making minor changes or adding content, making it fast-loading as well as removing spam comments and other malicious code.</p>
             <p>A good maintenance plan covers everything from basic site updates to fixing big problems and makes sure that you never have to worry about being hacked or being unable to pay the cost of web hosts. It can also include other helpful features like domain name registration, email setup and forwarding, social media integration, and more.</p>
         </div>

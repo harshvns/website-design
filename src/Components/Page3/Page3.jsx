@@ -21,7 +21,7 @@ const Page3 = () => {
             <div className='box4'>
                 <img className='boximg' width={330} height={330} src={Performance} alt="" />
                 <p className='box-heading'>Performance Checkup</p>
-                <p>Our intensive maintenance cheklist ensures your website performance at its best. All the performance monitoring activities are scheduled through our automated CRM system. Through our CRM system, you will get a detailed reports on a monthly basis.</p>
+                <p>Our intensive maintenance checklist ensures your website performance at its best. All the performance monitoring activities are scheduled through our automated CRM system. Through our CRM system, you will get a detailed reports on a monthly basis.</p>
                 <p><TiTick /> Optimize website speed and performance</p>
                 <p><TiTick /> Best caching implementation</p>
                 <p><TiTick /> Optimize images and reduce size up to 90%</p>

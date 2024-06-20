@@ -19,6 +19,8 @@ const Page4 = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     adaptiveHeight: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
   };
 
   return (

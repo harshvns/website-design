@@ -1,9 +1,16 @@
 .container{
+    content: '';
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,1fr);
     gap: 10px;    
-    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    background-image: url(../assets/background\ -\ Copy.avif);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    z-index: -1;
+    color: black;
 
 }
 
@@ -65,3 +72,6 @@
     padding-bottom: 2.8%;
 }
 
+.bg{
+    
+}
