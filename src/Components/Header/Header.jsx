@@ -12,14 +12,14 @@ const Header = () => {
         <p className='heading2'>Let our Experts take care of your website so that you can  focus on your business.</p>
         <div className='facility'>
             <div>
-                <p className='HeadPara'><TiTick /> Fast Website Loading</p>
-                <p className='HeadPara'><TiTick /> Content Edits Support </p>
-                <p className='HeadPara'><TiTick /> Monthly Preventive <br/> &nbsp;&nbsp;&nbsp;&nbsp; Activities</p>
+                <p className='HeadPara'><TiTick className='TiTick'/> Fast Website Loading</p>
+                <p className='HeadPara'><TiTick className='TiTick'/> Content Edits Support </p>
+                <p className='HeadPara'><TiTick className='TiTick'/> Monthly Preventive <br/> &nbsp;&nbsp;&nbsp;&nbsp; Activities</p>
             </div>
             <div>
-                <p className='HeadPara'><TiTick /> Unlimited Tech Support</p>
-                <p className='HeadPara'><TiTick /> 24×7 Website Monitoring</p>
-                <p className='HeadPara'><TiTick /> Security Optimization</p>
+                <p className='HeadPara'><TiTick className='TiTick'/> Unlimited Tech Support</p>
+                <p className='HeadPara'><TiTick className='TiTick'/> 24×7 Website Monitoring</p>
+                <p className='HeadPara'><TiTick className='TiTick'/> Security Optimization</p>
             </div>
         </div>
         <div className='Button'>
