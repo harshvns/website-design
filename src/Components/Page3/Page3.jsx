@@ -10,6 +10,7 @@ import Hack from '../assets/hackAndVirusProof.jpeg'
 import Mobile from '../assets/mobile.png'
 import Increase from '../assets/increaseConversion.png'
 import Clarity from '../assets/clarity.png'
+// import {Container} from 'react-boorstrap'
 
 const Page3 = () => {
   return (
