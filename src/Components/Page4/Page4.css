@@ -1,7 +1,9 @@
+/* Page4.css */
 .slider-container {
   position: relative;
   width: 100%;
   margin: 0 auto;
+  padding: 0; /* Remove padding from container */
 }
 
 .slick-slide {
@@ -10,6 +12,16 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
+  padding: 0; /* Remove padding between slides */
+  margin: 0; /* Remove margin between slides */
+}
+
+.slick-list {
+  margin: 0 -5px; /* Adjust negative margin to remove space between slides */
+}
+
+.slick-track {
+  display: flex;
 }
 
 .slick-slide img {
@@ -19,10 +31,7 @@
 
 .content {
   color: rgb(0, 0, 0);
-  /* width: ; */
-  /* height: 180px; */
-
-  padding: 20px;
+  width: 340px;
   text-align: center;
 }
 
@@ -41,14 +50,13 @@
 
 .prev-btn,
 .next-btn {
-  background-color:#3b7fbf;
+  background-color: #3b7fbf;
   color: white;
   border: 1px solid rgb(133, 128, 128);
   border-radius: 5px;
   cursor: pointer;
   padding: 10px;
 }
-
 
 .prev-btn:hover,
 .next-btn:hover {
@@ -60,11 +68,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
-  box-shadow: 0 15px 40px 10px rgb(154, 170, 207, 25%);
-  padding-left: 10px;
-  padding-right: 10px;
+  box-shadow: 0 15px 40px 10px rgba(154, 170, 207, 0.25);
+  padding: 0; /* Remove padding between slides */
   height: 400px;
+  width: 100%; /* Ensure slides take full width */
+  margin: 0; /* Remove margin between slides */
 }
 
 .slide-image {
@@ -72,7 +80,6 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* height: 250px; */
   background-color: #ffffff;
 }
 

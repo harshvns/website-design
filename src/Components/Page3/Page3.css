@@ -78,8 +78,10 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 5rem;
+    padding-right: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .box4 {
