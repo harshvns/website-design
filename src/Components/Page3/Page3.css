@@ -78,8 +78,8 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .box4 {
@@ -91,7 +91,8 @@
     margin-bottom: 10px;
     padding: 20px;
     border: 1px solid #ccc; /* Optional, for visual reference */
-    box-shadow: 0 15px 40px 10px rgb(154,170,207,25%);}
+    box-shadow: 0 15px 40px 10px rgb(154,170,207,25%);
+}
 
 .boximg {
     margin-bottom: 20px;
