@@ -1,11 +1,12 @@
-/* Page4.css */
 .slider-container {
   position: relative;
   width: 100%;
   margin: 0 auto;
   padding: 0; 
-  padding-top: 2rem;
-  padding-bottom: 7rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(114, 210, 210, 0.58);
+
 }
 
 .slick-slide {
@@ -14,12 +15,12 @@
   align-items: center;
   text-align: center;
   flex-direction: column;
-  padding: 0; /* Remove padding between slides */
-  margin: 0; /* Remove margin between slides */
+  padding: 0; 
+  margin: 0;
 }
 
 .slick-list {
-  margin: 0 -5px; /* Adjust negative margin to remove space between slides */
+  margin: 0 -5px; 
 }
 
 .slick-track {
@@ -33,12 +34,16 @@
 
 .content {
   color: rgb(0, 0, 0);
-  width: 340px;
+  width: 350px;
   text-align: center;
+  height: 400px;
+  background-color: white;
+  margin-top: -20px;
+
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: #3b7fbf;
 }
 
 .slider-buttons {
@@ -48,12 +53,13 @@
   display: flex;
   justify-content: space-between;
   transform: translateY(-50%);
+  border-radius: 100%;
 }
 
 .prev-btn,
 .next-btn {
-  background-color: #3b7fbf;
-  color: white;
+  background-color: white;
+  color: #3b7fbf;
   border: 1px solid rgb(133, 128, 128);
   border-radius: 5px;
   cursor: pointer;
@@ -75,6 +81,7 @@
   height: 400px;
   width: 100%; 
   margin: 0; 
+  
 }
 
 .slide-image {
@@ -83,6 +90,7 @@
   align-items: center;
   width: 100%;
   background-color: #ffffff;
+  padding-top: 10px;
 }
 
 .slide-image img {
