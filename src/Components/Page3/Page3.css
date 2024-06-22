@@ -80,12 +80,9 @@
   
   .container {
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: center;
     gap: 1rem;
-    
     flex-wrap: wrap;
-    padding-left: 11%; 
-    /* margin-bottom: -8%; */
   }
   
   .box4 {

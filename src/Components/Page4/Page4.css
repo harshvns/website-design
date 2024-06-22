@@ -73,6 +73,8 @@
   height: 400px;
   width: 100%; /* Ensure slides take full width */
   margin: 0; /* Remove margin between slides */
+  padding-bottom: 5rem;
+  padding-top: 2rem;
 }
 
 .slide-image {
