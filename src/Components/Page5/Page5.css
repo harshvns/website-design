@@ -1,0 +1,70 @@
+*{
+    color: rgb(76, 72, 72);
+}
+.Page5:hover .heading{
+    color: rgb(26, 110, 110);
+}
+.P5{
+    font-size: 1.4rem;
+    font-weight: 600px;
+}
+.container5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    gap: 1rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.box5{
+    border: 1px solid gray;
+    padding-left: 1%;
+    padding-right: 1%;
+    max-width: 340px;
+    box-shadow: 0 15px 40px 10px rgb(154, 170, 207, 21%);
+    padding-bottom: 1%;
+}
+.checklist5{
+    font-size: .868rem;
+}
+
+.P5btn{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+.P5button {
+    align-items: center;
+    color: whitesmoke;
+    background-color: #3b7fbf;
+    cursor: pointer;
+    width: 280px;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1.3px solid rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 450;
+    position: relative;
+    overflow: hidden;
+  }
+  .formP5{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: 1px solid gray;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 4px;
+  }
