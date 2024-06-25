@@ -106,7 +106,7 @@ const Page4 = () => {
           <Slider ref={sliderRef} {...settings}>
               <div className='slide'>
                   <div className='slide-image'>
-                      <img height={100} width={100} src={slide1} alt="slide 1" />
+                      <img height={100} width={90} src={slide1} alt="slide 1" />
                   </div>
                   <div className="content">
                       <h2>Protect</h2>
@@ -115,7 +115,7 @@ const Page4 = () => {
               </div>
               <div className='slide'>
                   <div className='slide-image'>
-                      <img height={100} width={100} src={slide2} alt="slide 2" />
+                      <img height={100} width={90} src={slide2} alt="slide 2" />
                   </div>
                   <div className="content">
                       <h2>Update</h2>
@@ -124,7 +124,7 @@ const Page4 = () => {
               </div>
               <div className='slide'>
                   <div className='slide-image'>
-                      <img height={100} width={100} src={slide3} alt="slide 3" />
+                      <img height={100} width={90} src={slide3} alt="slide 3" />
                   </div>
                   <div className="content">
                       <h2>Report</h2>
@@ -133,7 +133,7 @@ const Page4 = () => {
               </div>
               <div className='slide'>
                   <div className='slide-image'>
-                      <img height={100} width={100} src={slide4} alt="slide 4" />
+                      <img height={100} width={90} src={slide4} alt="slide 4" />
                   </div>
                   <div className="content">
                       <h2>Support</h2>
@@ -142,7 +142,7 @@ const Page4 = () => {
               </div>
               <div className='slide'>
                   <div className='slide-image'>
-                      <img height={100} width={100} src={slide5} alt="slide 5" />
+                      <img height={100} width={80} src={slide5} alt="slide 5" />
                   </div>
                   <div className="content">
                       <h2>Initiate</h2>

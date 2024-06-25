@@ -106,7 +106,7 @@
   .box-heading {
     font-weight: bold;
     margin: 10px 0;
-    font-size: 1.5rem; /* Adjust font size for better readability */
+    font-size: 1.5rem;
   }
   
   .BoxButton {
@@ -140,14 +140,17 @@
     padding-top: 3.8%;
     text-align: center;
     font-size: 2rem;
-    line-height: 1.2; /* Adjusted for better readability */
+    line-height: 1.2;
     font-weight: 550;
   }
-  
+  .pp3{
+    font-size: 1rem;
+    font-weight: 450;
+  }
   .headingP3 {
     text-align: center;
     font-size: 2rem;
-    line-height: 1.2; /* Adjusted for better readability */
+    line-height: 1.2;
     font-weight: 550;
     padding-bottom: 2.8%;
   }
@@ -160,25 +163,25 @@
   
   @media (max-width: 768px) {
     .container {
-      padding: 1rem; /* Adjust padding for small screens */
+      padding: 1rem;
     }
   
     .box4 {
-      width: 100%; /* Full width on small screens */
+      width: 100%;
       margin-bottom: 15px;
     }
   
     .boxButton {
-      width: 100%; /* Full width button on small screens */
+      width: 100%;
       font-size: 16px;
     }
   
     .box-heading {
-      font-size: 1.25rem; /* Adjust font size for small screens */
+      font-size: 1.25rem;
     }
   
     .headingP31, .headingP3 {
-      font-size: 1.5rem; /* Adjust font size for small screens */
+      font-size: 1.5rem;
     }
   }
   

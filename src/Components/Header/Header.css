@@ -1,5 +1,8 @@
 *{
     font-family: 'Chillax' , sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
   }
 .main {
     display: flex;
@@ -60,6 +63,8 @@
 }
 
 .Button {
+    /* justify-content: center; */
+    align-items: center;
     display: flex;
     gap: 60px;
 }
