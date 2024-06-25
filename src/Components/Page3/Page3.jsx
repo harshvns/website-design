@@ -60,11 +60,11 @@ const Page3 = () => {
                 <p className='box-heading'>Increase Conversion Rate</p>
                 <p>Our expertly-engineered Web Case service will boost your conversion rate by ensuring that everything works smoothly and efficiently.</p>
             </div>
-            <div className='box4'>
+            {/* <div className='box4'>
                 <img className='boximg' width={100} height={100}  src={Clarity} alt="" />
                 <p className='box-heading'>Clarity of Deliverability</p>
                 <p>We make sure that you are getting what you pay for and that you are satisfied with the service we provide. We also make sure that you are kept up to date on the work we are doing on your site.</p>
-            </div>
+            </div> */}
         </div>
         <div className='BoxButton'>
         <button className='boxButton'>MAINTAIN MY WEBSITE TODAY</button>
