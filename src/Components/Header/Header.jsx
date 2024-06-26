@@ -21,7 +21,9 @@ const Header = () => {
                 <p className='HeadPara'><TiTick className='TiTick'/> 24×7 Website Monitoring</p>
                 <p className='HeadPara'><TiTick className='TiTick'/> Security Optimization</p>
             </div>
+            
         </div>
+        
         <div className='Button'>
             <div>
                 <button className='quote'>Get a Quote</button>

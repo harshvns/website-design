@@ -10,6 +10,7 @@
     background-color: #3b7fbf;
     color: whitesmoke;
     height: 450px; 
+    
 }
 
 .main1, .img {
@@ -21,6 +22,8 @@
 }
 .main1{
     padding-right: 0%;
+     justify-content: center;
+    align-items: center;
 }
 
 .img {
@@ -39,32 +42,34 @@
 }
 
 .Heading {
-    margin-top: 11.3%;
+    margin-top: 50px;
     font-size: 35px;
     font-weight: 1000;
-    line-height: 110%;
-    /* word-spacing: 10px;*/
+    line-height: 40px;    
     letter-spacing: 2px; 
-    padding-left: 2%;
+    color: whitesmoke;
+    padding-left: 25px;
+    justify-content: center;
+    align-items: center;
 }
 
 .heading2 {
-    padding-left: 3%;
-    margin-top: -2.4%;
+    padding-left: 25px;
+    /* margin-top: -2.4%; */
     color: rgb(42, 41, 41);
     font-weight: 400;
-    margin-bottom: 1%;
+    /* margin-bottom: 1%; */
 }
 
 .facility {
+    padding-left: 25px;
     display: flex;
     gap: 70px;
-    padding-left: 2%;
+    font-weight: 500;
 }
 
 .Button {
-    /* justify-content: center; */
-    align-items: center;
+    padding-left: 25px;
     display: flex;
     gap: 60px;
 }
@@ -81,9 +86,13 @@
     font-weight: 450;
     position: relative;
     overflow: hidden;
-    /* transition: color 0.3s; */
+    padding: 6px;
+    /* transition: color .5s; */
 }
-
+.quote{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .quote:hover{
     background-color: white;
     color: #3b7fbf;
