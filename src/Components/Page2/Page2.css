@@ -129,7 +129,7 @@
     color: whitesmoke;
     background-color: #3b7fbf;
     cursor: pointer;
-    width: 100%;
+    width: 120%;
     /* height: 32px; */
     border-radius: 5px;
     border: 1.3px solid rgb(223, 223, 223);
@@ -137,6 +137,8 @@
     font-weight: 450;
     position: relative;
     overflow: hidden;
+    border: 1px solid black;
+
     /* transition: color 0.3s; */
 }
 
