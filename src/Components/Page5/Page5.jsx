@@ -283,12 +283,302 @@ const Page5 = () => {
                     <td><TiTick/></td>
                   </tr>
                   <tr>
+                    <td>CDN Implentation</td>
+                    <td>Addon</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Staging Environment</td>
+                    <td>Addon</td>
+                    <td>Addon</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Customization Support</td>
+                    <td>Addon</td>
+                    <td>Addon</td>
+                    <td>Basic</td>
+                    <td>Basic</td>
+                  </tr>
+                  <tr>
+                    <td>Onboarding Setup & Integrations</td>
+                  </tr>
+                  <tr>
+                    <td>Customer Onboarding</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Auto Backup Configuration</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>First Website Full Backup</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Google Analytics Setup</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Search Console Setup</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Domain & SSL Monitoring Setup</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Staging Environment Creation</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Website Uptime Monitoring Setup</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>Onboarding Speed Optimization</tr>
+                  <tr>
+                    <td>Image Optimization</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Database Optimization</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Code Optimization</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Caching Implementation</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>CDN Implementation</td>
+                    <td>Addon</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>Onboarding Security Optimization</tr>
+                  <tr>
+                    <td>Anti-Hack Systems Implementation</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Bot Protection</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Spam Protection</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Virus & Malware Scanning</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>Monthly Preventive Checklist</tr>
+                  <tr>
+                    <td>WP Core & Plugins Update</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Monthly Theme Upgrade</td>
+                    <td>Addon</td>
+                    <td>Addon</td>
+                    <td>Addon</td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Website Full Backup</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Website Speed Check & Optimize</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Database Optimization</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Clean Log & Spam Comments</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Enquiry Form Process Check</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Broken Link Check & Fix</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Website Security Check & Enhance</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Advance Malware Scanning</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>SSL Certificate Expiry Check</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>Online Support System</tr>
+                  <tr>
+                    <td>Support Request via Client Portal, Mobile App</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Communication via Google Meet/Zoom</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>24/7 Support Ticket Coverage</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>5+ Detailed Monthly Reports</tr>
+                  <tr>
+                    <td>Activity Report</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Support Request Report</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Website Traffic Report</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>WordPress Web Care Report</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Website Uptime Report</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Website Difficulties with Expert Suggestion</td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                    <td><TiTick/></td>
+                  </tr>
+                  <tr>
+                    <td>Performance Report</td>
                     <td>Addon</td>
                     <td><TiTick/></td>
                     <td><TiTick/></td>
                     <td><TiTick/></td>
                   </tr>
                 </tbody>
+
               </table>
             </div>
           </div>
