@@ -112,6 +112,11 @@
 
 .TiTick{
     height: .8rem;
+    color: white;
+}
+
+.icon-blue {
+  color: blue;
 }
 
 

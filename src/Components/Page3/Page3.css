@@ -124,7 +124,7 @@
     width: 280px;
     height: 2.5rem;
     border-radius: 5px;
-    border: 1.3px solid rgb(0, 0, 0);
+    border: 1px solid gray;
     font-size: 18px;
     font-weight: 450;
     position: relative;
