@@ -61,7 +61,7 @@ const Page5 = () => {
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Online Support System</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>24/7 Support Ticket Coverage</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>5+ Detailed Monthly Reports</p> */}
-                <button className='quotep5'>Get Quote</button>
+                <div className='quotebtnp5'><button className='quotep5'>Get Quote</button></div>
             </div>
             <div className='box5'>
                 <p className='P5'>Silver</p>
@@ -96,8 +96,8 @@ const Page5 = () => {
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Online Support System</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>24/7 Support Ticket Coverage</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>5+ Detailed Monthly Reports</p> */}
-                <button className='quotep5'>Get Quote</button>
-            </div>
+                <div className='quotebtnp5'><button className='quotep5'>Get Quote</button></div>
+                </div>
             <div className='box5'>
                 <p className='P5'>Gold</p>
                 <p className='price'>500 USD/40000 INR</p>
@@ -131,8 +131,8 @@ const Page5 = () => {
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Online Support System</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>24/7 Support Ticket Coverage</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>5+ Detailed Monthly Reports</p> */}
-                <button className='quotep5'>Get Quote</button>
-            </div>
+                <div className='quotebtnp5'><button className='quotep5'>Get Quote</button></div>
+                </div>
             <div className='box5'>
                 <p className='P5'>Platinum</p>
                 <p className='price'>700 USD/55000 INR</p>
@@ -166,8 +166,8 @@ const Page5 = () => {
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Online Support System</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>24/7 Support Ticket Coverage</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>5+ Detailed Monthly Reports</p> */}
-                <button className='quotep5'>Get Quote</button>
-            </div>
+                <div className='quotebtnp5'><button className='quotep5'>Get Quote</button></div>
+                </div>
             
         </div >
 
