@@ -7,6 +7,7 @@
   padding-bottom: 5rem;
   font-size: 1rem;
   font-weight: 450;
+  width: 85%;
 }
 
 .slick-slide {
@@ -14,8 +15,8 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-
-  
+  gap: 100px;
+  /* width: 300px; */
 }
 
 .slick-list {
@@ -34,7 +35,7 @@
 
 .content {
   color: rgb(0, 0, 0);
-  width: 350px;
+  width: 280px;
   text-align: center;
   height: 260px;
   background-color: white;
@@ -99,4 +100,8 @@
   /* max-width: 100%; */
   max-height: 100%;
   object-fit: cover;
+}
+
+@media screen and (max-width:1024px){
+
 }
