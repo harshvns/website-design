@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
 import './Page5.css'
-import { RxCrossCircled } from "react-icons/rx";
-import { ImCross } from "react-icons/im";
 import { TiTick } from "react-icons/ti";
 import { FaCheckCircle } from "react-icons/fa";
 
@@ -29,11 +27,12 @@ const Page5 = () => {
         <p className='headingp5'>Website Maintenance Packages</p>
         <div className='container5'>
             <div className='box5'>
-                <p className='P5'>Bronze</p>
+                <p className='P5'>Bronze
+                <div className='quotebtnp5'><button className='quotep5'>Get Quote</button></div>
+                </p>
                 <p className='price'>250 USD/15000 INR</p>
                 <p className='duration'>Yearly</p>
                 <p className='timing'>2 Hours Monthly</p>
-                {/* <button className='quotep5'>Get Quote</button> */}
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Monthly backup Offline</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Monthly Scanning</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Disaster Recovery</p>
@@ -45,30 +44,14 @@ const Page5 = () => {
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Webmail Supports</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> WP Core & plugins update</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> New Page Creation</p>
-                {/* <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>SSL Certificate Monitoring</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Domain Expiration Alert</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Third-Party Comm. Support</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>CDN Implementation</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Staging Environment</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Customization Support</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Google Analytics Setup</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Search Console Setup</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Monthly Preventive Checklist</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>WP Core & Plugins Update</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Mothly Theme Upgrade</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Broken Link Check & Fix</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Advance Malware Scanning</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Online Support System</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>24/7 Support Ticket Coverage</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>5+ Detailed Monthly Reports</p> */}
-                <div className='quotebtnp5'><button className='quotep5'>Get Quote</button></div>
             </div>
             <div className='box5'>
-                <p className='P5'>Silver</p>
+                <p className='P5'>Silver
+                <div className='quotebtnp5'><button className='quotep5'>Get Quote</button></div>
+                </p>
                 <p className='price'>350 USD/22000 INR</p>
                 <p className='duration'>Yearly</p>
                 <p className='timing'>5 Hours Monthly</p>
-                {/* <button className='quotep5'>Get Quote</button> */}
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Two off-site backup Monthly</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Monthly Scanning</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Broken link check & fix</p>
@@ -82,28 +65,14 @@ const Page5 = () => {
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Webmail Supports</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> WP Core & plugins update</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> New Page Creation</p>
-                {/* <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Third-Party Comm. Support</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>CDN Implementation</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Staging Environment</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Customization Support</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Google Analytics Setup</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Search Console Setup</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Monthly Preventive Checklist</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>WP Core & Plugins Update</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Mothly Theme Upgrade</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Broken Link Check & Fix</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Advance Malware Scanning</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Online Support System</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>24/7 Support Ticket Coverage</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>5+ Detailed Monthly Reports</p> */}
-                <div className='quotebtnp5'><button className='quotep5'>Get Quote</button></div>
                 </div>
             <div className='box5'>
-                <p className='P5'>Gold</p>
+                <p className='P5'>Gold
+                <div className='quotebtnp5'><button className='quotep5'>Get Quote</button></div>
+                </p>
                 <p className='price'>500 USD/40000 INR</p>
                 <p className='duration'>Yearly</p>
                 <p className='timing'>7 Hours Monthly</p>
-                {/* <button className='quotep5'>Get Quote</button> */}
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Monthly Offline Backup</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Monthly Security Scanning</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Broken link check & fix</p>
@@ -117,28 +86,14 @@ const Page5 = () => {
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Webmail Supports</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> WP Core & plugins update</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> New Page Creation</p>
-                {/* <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Third-Party Comm. Support</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>CDN Implementation</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Staging Environment</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Customization Support</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Google Analytics Setup</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Search Console Setup</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Monthly Preventive Checklist</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>WP Core & Plugins Update</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Mothly Theme Upgrade</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Broken Link Check & Fix</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Advance Malware Scanning</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Online Support System</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>24/7 Support Ticket Coverage</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>5+ Detailed Monthly Reports</p> */}
-                <div className='quotebtnp5'><button className='quotep5'>Get Quote</button></div>
                 </div>
             <div className='box5'>
-                <p className='P5'>Platinum</p>
+                <div className='P5'>Platinum
+                <div className='quotebtnp5'><button className='quotep5'>Get Quote</button></div>
+                </div>
                 <p className='price'>700 USD/55000 INR</p>
                 <p className='duration'>Yearly</p>
                 <p className='timing'>15 Hours Monthly</p>
-                {/* <button className='quotep5'>Get Quote</button> */}
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Monthly Backup Offline</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Website Performance Monitoring</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Disaster Recovery</p>
@@ -153,20 +108,6 @@ const Page5 = () => {
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> WP Core & plugins update</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> Malware scanning</p>
                 <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/> New Page Creation</p>
-                {/* <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>CDN Implementation</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Staging Environment</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Customization Support</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Google Analytics Setup</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Search Console Setup</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Monthly Preventive Checklist</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>WP Core & Plugins Update</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Mothly Theme Upgrade</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Broken Link Check & Fix</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Advance Malware Scanning</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>Online Support System</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>24/7 Support Ticket Coverage</p>
-                <p className='checklist5'><FaCheckCircle color='#3b7fbf' size={14}/>5+ Detailed Monthly Reports</p> */}
-                <div className='quotebtnp5'><button className='quotep5'>Get Quote</button></div>
                 </div>
             
         </div >

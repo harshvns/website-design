@@ -38,10 +38,17 @@ const Page2 = () => {
         <button className={`box2 ${clickedButton === 'button4' ? 'clicked':''}`} onClick={() => handleClick('div4','button4')}><img src={service} height={120} width={200}/><br />What types of <br/>Maintenance <br/> are available?</button>
         <button className={`box2 ${clickedButton === 'button5' ? 'clicked':''}`} onClick={() => handleClick('div5','button5')}><img src={cost} height={120} width={200}/><br />How much does <br/>website <br/>maintenance cost?</button>
     </div>
+    <div className='box768'>
+        <button className={`box2-768 ${clickedButton === 'button1' ? 'clicked':''}`} onClick={() => handleClick('div1','button1')}><img src={what} height={60} width={70}/>What</button>
+        <button className={`box2-768 ${clickedButton === 'button2' ? 'clicked':''}`} onClick={() => handleClick('div2','button2')}><img src={how} height={60} width={70}/>How</button>
+        <button className={`box2-768 ${clickedButton === 'button3' ? 'clicked':''}`} onClick={() => handleClick('div3','button3')}><img src={growth} height={60} width={70}/>Benefits</button>
+        <button className={`box2-768 ${clickedButton === 'button4' ? 'clicked':''}`} onClick={() => handleClick('div4','button4')}><img src={service} height={60} width={70}/>Types</button>
+        <button className={`box2-768 ${clickedButton === 'button5' ? 'clicked':''}`} onClick={() => handleClick('div5','button5')}><img src={cost} height={60} width={70}/>Cost</button>
+    </div>
     {visibleDiv === 'div1' && (
     <div className='maintenance'>
         <div className='mainten'>
-            <p className='headingp2'>What are website maintenance services?</p>
+            <p className='heading-mainten'>What are website maintenance services?</p>
             <p>Website maintenance is the process of making sure that your site stays up-to-date and running smoothly. It can include making minor changes or adding content, making it fast-loading as well as removing spam comments and other malicious code.</p>
             <p>A good maintenance plan covers everything from basic site updates to fixing big problems and makes sure that you never have to worry about being hacked or being unable to pay the cost of web hosts. It can also include other helpful features like domain name registration, email setup and forwarding, social media integration, and more.</p>
         </div>
@@ -51,7 +58,7 @@ const Page2 = () => {
 {visibleDiv === 'div2' && (
     <div className='maintenance'>
         <div className='mainten'>
-            <p className='headingp2'>How does website maintenance work?</p>
+            <p className='heading-mainten'>How does website maintenance work?</p>
             <p>Website maintenance is the process of keeping your website up-to-date and running smoothly for your visitors. The word "maintenance" is often confused with "updates," but there's a big difference between the two. Updates are what you do to make changes and add new features, while maintenance is what you do to keep things running smoothly.</p>
             <p>At any given time, there are a lot of moving parts that go into making sure your website is working properly web hosts, infrastructure, third-party integrations, security systems, and more. Website maintenance can include everything from checking the status of these different pieces on an ongoing basis to fixing problems as they arise to updating code or even replacing hardware when it becomes too outdated or worn down to function properly.</p>
         </div>
@@ -61,7 +68,7 @@ const Page2 = () => {
 {visibleDiv === 'div3' && (
     <div className='maintenance'>
         <div className='mainten'>
-            <p className='headingp2'>What are the benefits of website maintenance?</p>
+            <p className='heading-mainten'>What are the benefits of website maintenance?</p>
             <p>For a website owner, website maintenance has both short and long-term benefits. First, it ensures that the website is always online. This is particularly important for businesses as it is impossible to earn revenue from an offline website. Second, with regular maintenance, the website owner can avoid making major repairs on a site that does not function at all. This is extremely important for business owners who need their websites to attract customers and bring in revenue. Regularly scheduled maintenance also enables the site owner to foresee any problems that could arise and to act before they become serious issues.</p>
             <p>In addition to the practical reasons for maintaining a website, there are other reasons such as keeping up with technology or trends in web design. A business might want to redesign its website but only if it feels that redesigning the site will improve its effectiveness in attracting customers. Regular maintenance helps the site owner determine whether or not the time has come to hire a web designer or make changes to the existing site.</p>
         </div>
@@ -71,7 +78,7 @@ const Page2 = () => {
 {visibleDiv === 'div4' && (
     <div className='maintenance'>
         <div className='mainten'>
-            <p className='headingp2'>What types of Maintenance Services are available?</p>
+            <p className='heading-mainten'>What types of Maintenance Services are available?</p>
             <p>Maintenance plans can differ by the amount of care they offer for your site. They can range from simple updates like security patches to complete overhauls of your site such as a redesign with new content. The plan can also range in terms of how frequently it is implemented - some plans will provide an update every few months while other services offer daily updates.</p>
         </div>
     </div>
@@ -80,7 +87,7 @@ const Page2 = () => {
 {visibleDiv === 'div5' && (
     <div className='maintenance'>
         <div className='mainten'>
-            <p className='headingp2'>How much does website maintenance cost?</p>
+            <p className='heading-mainten'>How much does website maintenance cost?</p>
             <p>That's a question that goes through the minds of many small business owners, and it's one we hear often. The answer to this question is that "it depends." What it depends on is what services you're paying for, how often they're needed, and who's going to be performing them. On average, website maintenance will cost in between $700-$1200 per year.</p>
         </div>
     </div>

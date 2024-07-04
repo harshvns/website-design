@@ -17,7 +17,7 @@ const Header = () => {
             <div>
                 <p><FaCheck  color='#fff' className=' p-2' size={12}/> Fast Website Loading</p>
                 <p><FaCheck  color='#fff' className=' p-2' size={12}/> Content Edits Support</p>
-                <p><FaCheck  color='#fff' className=' p-2' size={12}/> Monthly Preventive <br/> &nbsp;&nbsp;&nbsp;&nbsp; Activities</p>
+                <p><FaCheck  color='#fff' className=' p-2' size={12}/> Monthly Preventive <br/> &nbsp;&nbsp;&nbsp; Activities</p>
             </div>
             <div>
                 <p><FaCheck  color='#fff' className=' p-2' size={12}/> Unlimited Tech Support</p>

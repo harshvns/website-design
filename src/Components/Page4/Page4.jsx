@@ -31,7 +31,7 @@ const Page4 = () => {
                       <img height={100} width={90} src={slide1} alt="slide 1" />
                   </div>
                   <div className="content">
-                      <h2>Protect</h2>
+                      <h2 className='headingp4-slider'>Protect</h2>
                       <p>Through the program, we ensure that the website codes, database, and credentials are fully secured and maintained. To achieve this we used several technologies that are tested and have been used by us for a long time. The security implementations we do on your website are highly proven.</p>
                   </div>
               </div>
@@ -40,7 +40,7 @@ const Page4 = () => {
                       <img height={100} width={90} src={slide2} alt="slide 2" />
                   </div>
                   <div className="content">
-                      <h2>Update</h2>
+                      <h2 className='headingp4-slider'> Update</h2>
                       <p>In this phase, our team does all the required updations to the website requested by you. We ensure it gets done in 24-48 hours or less. Apart from your request, we do all the periodic updates as proposed.</p>
                   </div>
               </div>
@@ -49,7 +49,7 @@ const Page4 = () => {
                       <img height={100} width={90} src={slide3} alt="slide 3" />
                   </div>
                   <div className="content">
-                      <h2>Report</h2>
+                      <h2 className='headingp4-slider'>Report</h2>
                       <p>We believe in keeping complete transparency and we provide up-to-date Monthly / Quarterly Website Traffic reports and Monthly / Quarterly Activity reports of our work on your website which will help you understand your site's performance. The frequency is as per the scope of work defined.</p>
                   </div>
               </div>
@@ -58,7 +58,7 @@ const Page4 = () => {
                       <img height={100} width={90} src={slide4} alt="slide 4" />
                   </div>
                   <div className="content">
-                      <h2>Support</h2>
+                      <h2 className='headingp4-slider'>Support</h2>
                       <p>Our Website Care team is there to support you with any technical difficulties with the website's performance.</p>
                   </div>
               </div>
@@ -67,7 +67,7 @@ const Page4 = () => {
                       <img height={100} width={80} src={slide5} alt="slide 5" />
                   </div>
                   <div className="content">
-                      <h2>Initiate</h2>
+                      <h2 className='headingp4-slider'>Initiate</h2>
                       <p>Our technical team initiates a maintenance project through the CRM system. Post initiation we do all the one-time necessary activities to ensure the newly initiated project is fully protected includes a full backup of your website too.</p>
                   </div>
               </div>
