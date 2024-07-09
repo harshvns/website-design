@@ -28,10 +28,10 @@ const Header = () => {
         </div>
         
         <div className='Button'>
-            <div>
+            <div className='quoteClass'>
                 <button className='quote'>Get a Quote</button>
             </div>
-            <div>
+            <div className='quoteClass'>
                 <button className='explore'>Explore Packages</button>
             </div>
         </div>

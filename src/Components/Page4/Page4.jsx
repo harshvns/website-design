@@ -21,6 +21,20 @@ const Page4 = () => {
       adaptiveHeight: true,
       autoplay: true,
       autoplaySpeed: 3000,
+      responsive: [
+        {
+          breakpoint: 1024, // Medium devices (tablets, iPads, etc.)
+          settings: {
+            slidesToShow: 2,
+          }
+        },
+        {
+          breakpoint: 600, // Small devices (portrait phones, 576px and up)
+          settings: {
+            slidesToShow: 1,
+          }
+        }
+      ]
   };
 
   return (

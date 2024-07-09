@@ -190,6 +190,8 @@
 
     .box2-768{
         width: 100%;
+        font-size: 1.2rem;
+        font-weight: 400;
     }
     .QuoteHeading{
         font-size: 1.4rem;
@@ -235,7 +237,9 @@
         align-items: center;
         text-align: center;
         justify-content: center;
-    }
+        font-size: 1.3rem;
+        font-weight: 450;
+        }
     .box2-768 img{
         
         width: 140px;
