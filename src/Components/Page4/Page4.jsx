@@ -86,14 +86,14 @@ const Page4 = () => {
                   </div>
               </div>
           </Slider>
-          <div className="slider-buttons">
+          {/* <div className="slider-buttons">
               <button className="prev-btn" onClick={() => sliderRef.current.slickPrev()}>
                   &lt;
               </button>
               <button className="next-btn" onClick={() => sliderRef.current.slickNext()}>
                   &gt;
               </button>
-          </div>
+          </div> */}
       </div>
   );
 };

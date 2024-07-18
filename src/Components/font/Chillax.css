@@ -1,4 +1,3 @@
-/* Chillax Font Faces */
 @font-face {
     font-family: 'Chillax';
     src: url('//cdn.fontshare.com/wf/SVYQ5C47KQ7Q4A6527WD7JA6PUG6HK55/I2UFEJWWBDNRZ5HKD3V4ASSUY3YYEMOJ/JEWCW7XRBNTGIANRIQOD4DIZJG4HEHFJ.woff2') format('woff2'),
@@ -41,28 +40,4 @@
   *{
     font-family: 'Chillax' , sans-serif;
   }
-  /* Usage Example */
-  /* body {
-    font-family: 'Chillax', sans-serif;
-  }
   
-  h1 {
-    font-family: 'Chillax';
-    font-weight: 300; 
-  }
-  
-  h2 {
-    font-family: 'Chillax';
-    font-weight: 400; 
-  }
-  
-  h3 {
-    font-family: 'Chillax';
-    font-weight: 500; 
-  }
-  
-  p {
-    font-family: 'Chillax';
-    font-weight: 200; 
-  }
-   */
