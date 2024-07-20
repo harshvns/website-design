@@ -1,11 +1,11 @@
 .p2{
     background-color: white;
     /* text-align: center; */
-    color: rgb(76, 72, 72);
     padding-left: 4%;
     padding-right: 4%;
-    font-size: 1rem;
-    font-weight: 450;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5e5e5ecb;
 }
 .p2:hover .heading {
     color: #3b7fbf;
@@ -13,16 +13,17 @@
 
 .heading{
     text-align: center;
-    font-size: 2rem;
+    font-size: 35px;
     font-weight: 600;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    color: #5e5e5e;
 }
 .heading-mainten{
     
     font-size: 1.7rem;
     font-weight: 550;
-    color: rgb(49, 48, 48);
+    color: #5e5e5e;
     margin-top: -.5rem;
     /* margin-bottom: 1.5rem; */
 }
@@ -33,13 +34,13 @@
 }
 
 .p3{
-    color: rgb(76, 72, 72);
+    color: #5e5e5ecb;
     /* padding-top: 2%; */
     padding-left: 13%;
     padding-right: 13%;
     /* padding-bottom: 2.5%; */
-    font-size: 1rem;
-    font-weight: 450;
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .p3:hover .heading {
@@ -95,6 +96,7 @@
     padding: 10px;
     /* color: rgb(231, 221, 221); */
     border-bottom: none;
+    color: #5e5e5ecb;
 }
 
 .heading3{

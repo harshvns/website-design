@@ -19,6 +19,9 @@
     padding-right: 1rem;
     box-sizing: border-box;
     width: 300px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5e5e5e;
     box-shadow: 0 15px 40px 10px rgb(154, 170, 207, 21%);
     /* padding-bottom: 1rem; */
 }
@@ -99,9 +102,10 @@
 }
   .headingp5{
     text-align: center;
-    font-size: 2rem;
+    font-size: 35px;
     font-weight: 600;
     margin-bottom: 2rem;
+    color: #5e5e5e;
   }
 
   .quotep5{

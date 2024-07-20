@@ -29,9 +29,12 @@
 .slick-slide img {
   height: auto;
 }
+.headingp4-slider{
+  color: #5e5e5e;
+}
 
 .content {
-  color: rgb(0, 0, 0);
+  color: #5e5e5ecb;
   width: 280px;
   text-align: center;
   height: 260px;
