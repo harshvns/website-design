@@ -1,4 +1,4 @@
-.slider-container {
+.slide-contain {
   position: relative;
   margin: 0 auto;
   padding: 0; 
@@ -9,21 +9,6 @@
   width: 76%;
   margin-top: 2rem;
   margin-bottom: 4rem;
-}
-
-.slick-slide {
-   display: flex !important;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.slick-list {
-  overflow: hidden;
-}
-
-.slick-track {
-  display: flex;
 }
 
 .slick-slide img {
